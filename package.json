@@ -1,0 +1,28 @@
+{
+  "name": "npmpackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakkshm26/color-log.git"
+  },
+  "keywords": [
+    "color logs"
+  ],
+  "author": "Saksham <sakshamsharma630@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sakkshm26/color-log/issues"
+  },
+  "homepage": "https://github.com/sakkshm26/color-log#readme",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "files": ["lib/**/*"]
+}
